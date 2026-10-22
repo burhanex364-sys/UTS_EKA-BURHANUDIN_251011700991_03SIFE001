@@ -11,18 +11,18 @@ class EcommerceSeeder extends Seeder
     {
         DB::table('ecommerce')->insert([
             [
-                'name' => 'Kaos Polos',
-                'description' => 'Kaos polos berbahan katun yang nyaman untuk digunakan sehari-hari.',
+                'name' => 'T-Shirt Polos',
+                'description' => 'T-Shirt polos berbahan katun yang nyaman untuk digunakan sehari-hari.',
                 'price' => 75000,
-                'image' => 'kaos-polos.png',
-                'category' => 'Kaos',
+                'image' => 't-shirt-polos.png',
+                'category' => 'T-Shirt',
             ],
             [
-                'name' => 'Kaos Oversize',
-                'description' => 'Kaos oversize dengan desain modern dan potongan longgar.',
+                'name' => 'T-Shirt Oversize',
+                'description' => 'T-Shirt oversize dengan desain modern dan potongan longgar.',
                 'price' => 95000,
-                'image' => 'kaos-oversize.png',
-                'category' => 'Kaos',
+                'image' => 't-shirt-oversize.png',
+                'category' => 'T-Shirt',
             ],
             [
                 'name' => 'Kemeja Formal',
