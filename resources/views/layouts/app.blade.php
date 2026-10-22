@@ -111,7 +111,7 @@
                     </li>
 
                     @foreach ([
-                    'Kaos',
+                    'T-Shirt',
                     'Kemeja',
                     'Polo',
                     'Sweater & Hoodie',

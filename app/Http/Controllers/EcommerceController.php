@@ -26,7 +26,7 @@ class EcommerceController extends Controller
             ->get();
 
         $categories = [
-            'Kaos',
+            'T-Shirt',
             'Kemeja',
             'Polo',
             'Sweater & Hoodie',
